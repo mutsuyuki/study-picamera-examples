@@ -44,7 +44,7 @@ class FaceDetector(object):
 
         # cv2.putText(frame, '顔の数:' + str(len(faces)), (100,100), cv2.FONT_HERSHEY_SIMPLEX, 10, (255,255,255),3,cv2.CV_AA )
         # cv2.putText(frame, "SAMPLE_TEXT", (x,y), cv2.FONT_HERSHEY_SIMPLEX, 10,  7, (0, 0, 255), 3, cv2.CV_AA)
-        cv2.putText(frame, 'Happyな人:' + str(len(faces)) + '人, (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), thickness=2)
+        cv2.putText(frame, 'Happyな人:' + str(len(faces)) + '人', (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), thickness=2)
 
 
         # frameを戻り値として返す
